@@ -1,0 +1,84 @@
+.header {
+    /* background-color: cyan; */
+    border-bottom: dotted;
+    border-width: 5px;
+    border-radius: 20px;
+    border-color: rgb(154, 255, 54);
+    display: flex;
+    justify-content: space-between;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+}
+p,h2,h3 {
+    text-align: center;
+}
+
+body{
+    background-color:#000000;
+    border: solid;
+    border-radius: 20px;
+    color: rgb(154,255,54);
+    font-family: theSolstice;
+}
+
+@font-face {
+    font-family: theSolstice;
+    src: url(THE\ SOLSTICE.ttf);
+}
+
+.item {
+    position: relative;
+}
+
+.item p{
+    position:absolute;
+     top:25%;
+     left:50%;
+     transform: translate(-50%,50%);
+     opacity: 0;
+}
+
+.item img{
+    border: solid;
+    border-radius: 20px;
+    color: rgb(154,255,54);
+}
+
+.item:hover p {
+    opacity:1;
+}
+
+.item:hover img {
+    opacity: 0.3;
+}
+
+.footer {
+    border: solid;
+    border-radius: 20px;
+     margin-top: 10%;
+}
+
+h1 {
+    margin-left: 60px;
+    padding-left: 60px;
+}
+
+.aboutme {
+    padding: 20px;
+}
+
+a:link {
+    color: greenyellow;  
+}
+a:visited{
+    color: green;
+}
